@@ -1,8 +1,40 @@
-#logo {
-    font-size: 40px;
-    font-weight: 100;
-    background-image: linear-gradient(to top, #201717, #2892cf);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+.header {
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #8f3c3c, #678ca1);
+    padding: 20px 10px;
+}
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+.header a:hover {
+    background-color: slategray;
+    color: black;
+}
+.header a.active {
+    background-color:slategray;
+    color: white;
+}
+.header-right {
+    float: right;
+}
+body {
+    background-color: antiquewhite;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-image: linear-gradient(to top, #8f3c3c, #678ca1);
+    color: black;
+    display: block;
 }
