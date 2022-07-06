@@ -1,6 +1,6 @@
 .header {
     overflow: hidden;
-    background-image: linear-gradient(to bottom, #8f3c3c, #678ca1);
+    background-image: linear-gradient(to top, #549752, #678ca1);
     padding: 3px;
 }
 .header a {
@@ -34,7 +34,7 @@
     margin-right: 20px;
 }
 body {
-    background-color:gray;
+    background-color: #4b6a7c;
 }
 .Information {
     height: 600px;
@@ -47,6 +47,27 @@ body {
 footer {
     text-align: center;
     padding: 3px;
-    background-image: linear-gradient(to top, #8f3c3c, #678ca1);
+    background-image: linear-gradient(to top, #549752, #678ca1);
     color: black;
+}
+img {
+    width: 45px;
+    height: 45px;
+}
+.skills {
+    float: left;
+}
+fieldset {
+    background-image: linear-gradient(to top, #549752, #678ca1);
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 5px;
+    width: 10%;
+    border: 2px solid black;
+}
+legend {
+    background-color: #678ca1;
+    color:black;
+    padding: 10px 10px;
 }
