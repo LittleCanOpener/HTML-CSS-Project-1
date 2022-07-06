@@ -1,11 +1,11 @@
 .header {
     overflow: hidden;
-    background-image: linear-gradient(to top, #549752, #678ca1);
+    background-image: linear-gradient(to top, #e0e4e0, #678ca1);
     padding: 3px;
 }
 .header a {
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     margin: 20px 0;
     padding: 3px;
@@ -22,11 +22,11 @@
 }
 .header a:hover {
     border-bottom: 1px solid black;
-    color: black;
+    color: white;
 }
 .header a.active {
     border-bottom: 1px solid black;
-    color: black;
+    color: white;
 }
 .header-right {
     font-size: 100%;
@@ -35,6 +35,10 @@
 }
 body {
     background-color: #4b6a7c;
+    background-image: url(https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 .Information {
     height: 600px;
@@ -47,8 +51,8 @@ body {
 footer {
     text-align: center;
     padding: 3px;
-    background-image: linear-gradient(to top, #549752, #678ca1);
-    color: black;
+    background-image: linear-gradient(to bottom, #e0e4e0, #678ca1);
+    color: white;
 }
 img {
     width: 45px;
@@ -58,16 +62,19 @@ img {
     float: left;
 }
 fieldset {
-    background-image: linear-gradient(to top, #549752, #678ca1);
+    background-image: linear-gradient(to top, #e0e4e0, #678ca1);
     display: block;
     margin-left: 2px;
     margin-right: 2px;
     padding: 5px;
     width: 10%;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 legend {
     background-color: #678ca1;
-    color:black;
+    color: white;
     padding: 10px 10px;
+}
+p, h1 , h2 {
+    color: white;
 }
