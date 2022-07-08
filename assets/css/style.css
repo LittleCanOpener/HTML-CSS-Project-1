@@ -1,13 +1,15 @@
 .header {
-    overflow: hidden;
-    background-image: linear-gradient(to top, #e0e4e0, #678ca1);
     padding: 3px;
+    position : relative;
+    width: 100%; 
+    height: 40px;
+    display: block;
 }
+
 .header a {
     float: left;
     color: white;
     text-align: center;
-    margin: 20px 0;
     padding: 3px;
     text-decoration: none;
     font-size: 20px;
@@ -15,17 +17,33 @@
     border-radius: 1px;
     text-indent: 10px;
 }
+.header::after {
+    background-color: slategray;
+    content: "";
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    padding: 10px;
+    width:auto;
+    height: 60px;
+}
 .header a.logo {
     font-size: 20px;
     font-weight: bold;
     margin-left: 20px;
 }
 .header a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
+    border-radius: 70%;
     color: white;
 }
 .header a.active {
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
+    border-radius: 70%;
     color: white;
 }
 .header-right {
@@ -34,7 +52,7 @@
     margin-right: 20px;
 }
 body {
-    background-color: #4b6a7c;
+    background-color: slategray;
     background-image: url(https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -49,32 +67,54 @@ body {
 
 
 footer {
-    text-align: center;
-    padding: 3px;
-    background-image: linear-gradient(to bottom, #e0e4e0, #678ca1);
-    color: white;
+        position: fixed;
+        padding: 3px;
+        bottom: 0;
+        width: 100%; 
+        height: 60px;
 }
-img {
-    width: 45px;
-    height: 45px;
+footer::after {
+    background-color: slategray;
+    content: "";
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    padding: 10px;
+    width:auto;
+    height: 60px;
 }
-.skills {
-    float: left;
-}
+
 fieldset {
-    background-image: linear-gradient(to top, #e0e4e0, #678ca1);
+    background-color: gray;
     display: block;
     margin-left: 2px;
     margin-right: 2px;
     padding: 5px;
-    width: 10%;
-    border: 2px solid white;
+    width: 20px;
+    border: 3px solid white;    
 }
 legend {
-    background-color: #678ca1;
+    background-color: gray;
     color: white;
     padding: 10px 10px;
+    position: relative;
 }
-p, h1 , h2 {
+.signup {
+    position: relative;
+    left: 78%;
+    bottom: -10px;
+}
+p, h1 , h2 , h3 {
     color: white;
+}
+.box {
+    display: block;
+    position: relative;
+    width: 420px;
+    height: 220px;
+    text-align: center;
 }

@@ -12,4 +12,6 @@ Do you require a website?
 <li><a href="https://www.pexels.com/">Images & Videos</a></li>
 <li><a href="https://fontawesome.com/">Font Awesome</a></li>
 <li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
+<li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-Tricks</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li">MDN Web Docs</a></li>
 </ul>
