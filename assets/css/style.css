@@ -1,121 +1,94 @@
-.header {
-    padding: 3px;
-    position : relative;
-    width: 1900px; 
-    height: 40px;
-    display: block;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&family=Playfair+Display&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+/**/
+/* nav-bar */
+.nav-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+.nav-bar a {
+    float: right;
+    text-align: center;
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3 ease;
+    color: white;
+    font-size: 36px;
+}
+.nav-bar a:hover {
+    background-color: #000;
+}
+.active {
+    background-color: #044caa;
+}
+/**/
+/* Body */
+body {
+    font-family: Playfair+Display, sans-serif;
+    font-weight: 300;
+    color: black;
+}
+/**/
+/* Skill Bar*/
+* {
+    box-sizing:border-box
+}
+.container {
+    width: 30%;
+    background-color: antiquewhite;
+}
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
 }
 
-.header a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 3px;
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 20px;
-    border-radius: 1px;
-    text-indent: 10px;
-}
-.header::after {
-    background-color: slategray;
-    content: "";
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-    padding: 10px;
-    width:auto;
-    height: 40px;
-}
-.header a.logo {
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 20px;
-}
-.header a:hover {
-    border-bottom: 3px solid black;
-    border-radius: 70%;
-    color: white;
-}
-.header a.active {
-    border-bottom: 3px solid black;
-    border-radius: 70%;
-    color: white;
-}
-.header-right {
-    font-size: 100%;
-    float: right;
-    margin-right: 20px;
-}
-body {
-    background-color: slategray;
-    background-image: url(https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    width: 1900px;
-    height: 600px;
-}
-.Information {
+.html {width: 70%; background-color: green;}
+.css {width: 50%; background-color: yellow;}
+.js {width: 2%; background-color: red;}
+.python {width: 1%; background-color: red;}
+
+#skill-set{
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-
-
-footer {
-        position: fixed;
-        padding: 3px;
-        bottom: 0;
-        width: 100%; 
-        height: 60px;
+/**/
+/* Header */
+body {
+    font-family: Playfair+Display, sans-serif;
+    font-weight: 300;
+    color: black;
 }
-footer::after {
-    background-color: slategray;
-    content: "";
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-    padding: 10px;
-    width: 100%;
-    height: 60px;
+h1, h2 {
+    font-family: Cormorant, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
-
-fieldset {
-    background-color: gray;
-    display: block;
-    margin-left: 2px;
-    margin-right: 2px;
-    padding: 5px;
-    width: 20px;
-    border: 3px solid white;    
+#logo {
+    float: left;
+    font-size: 100%;
+    margin-left: 20px;
+    list-style: 75px;
 }
-legend {
-    background-color: gray;
-    color: white;
-    padding: 10px 10px;
-    position: relative;
+/**/
+/*Card*/
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    max-width: 50%;
 }
-.signup {
-    position: relative;
-    bottom: -20px;
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
-p, h1 , h2 , h3 {
-    color: white;
-}
-.box {
-    display: block;
-    position: relative;
-    width: 420px;
-    height: 220px;
-    text-align: center;
-}
+/**/
