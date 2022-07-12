@@ -7,16 +7,15 @@
     border: none;
 }
 /**/
-/* header-right & logo */
+/*-------------------------Navbar-------------------------*/
 .header-right {
     width: 100%;
     background-color: rgb(124, 35, 35);
     overflow: hidden;
     position: relative;
-    float: left;
 }
 .header-right a {
-    float: left;
+    float: right;
     text-align: center;
     width: 20%;
     padding: 14px 16px;
@@ -40,112 +39,53 @@
     font-size: 25px;
     font-weight: bold;
 }
+/**/
+/*-------------------------Logo-------------------------*/
 .logo {
     width: 250px;
     height: 100px;
-    text-align: center;
+    text-align: left;
+    color: white;
 }
 /**/
-/* Body */
+/*-------------------------Body & Structure-------------------------*/
 body {
+    background-color: rgb(46, 10, 10);;
     font-family: Playfair+Display, sans-serif;
     font-weight: 300;
-    color: black;
-    width: 90%;
+    color: white;
     margin: 0 auto;
-}
-/**/
-/* Body & Structure */
-body {
-    font-family: Playfair+Display, sans-serif;
-    font-weight: 300;
-    color: black;
 }
 h1, h2 {
     font-family: Cormorant, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.gid-container {
-    display:flex;
-    grid-template-columns: repeat(3, minmax(56px, 80px));
-    position: relative;
-    bottom: 0;
-    left: 0;
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+    height: 400px;
     width: 100%;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
-    justify-content: space-between;
-  }
-  
-.gid {
-    display: table;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: 56px;
-    font-size: 14px;
-    text-decoration: none;
+    padding-bottom: 12px;
+    padding-top: 12px;
 }
-/* product */
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 200px;
-    margin: 8px;
-    text-align: center;
-    font-family: Cormorant, sans-serif;
+.flex-container > div > img {
+    width: 600px;
+    height: 370px;
+    box-shadow: 7px 3px 7px 3px rgba(0, 0, 0, 0.178);
 }
-.price {
-    color: rgb(124, 35, 35);
-    font-size: 20px;
+.hero-image > img {
+    width: 1900px;
+    height: 480px;
 }
-.card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: rgb(124, 35, 35);
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-}
-.card button:hover {
-    background-color: rgb(73, 20, 20);
-}
-.one, .two, .three, .four, .five {
-    height: 50%;
-    width: 60%;
-    padding: 8px;
-}
-/* Contact */
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    resize: vertical;
-}
-input[type=submit] {
-    background-color: rgb(124, 35, 35);
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-}
-input[type=submit]:hover {
-    background-color: rgb(73, 20, 20);
-}
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+.flex-container > div > p {
+    padding-bottom: 48px;
 }
 /**/
-/* Footer & Social Media*/
+/*-------------------------Footer & Social Media-------------------------*/
 .footer {
     position: fixed;
     left: 0;
@@ -157,10 +97,10 @@ input[type=submit]:hover {
     text-align: center;
 }
 .footer a:visited {
-    color: black;
+    color: white;
 }
 .footer a:link {
-    color: black;
+    color: white;
 }
 .footer i {
     font-size: 20px;
@@ -168,7 +108,13 @@ input[type=submit]:hover {
     padding: 6px;
 } 
 /**/
-/* Other Devices */
+/*-------------------------Other Devices-------------------------*/
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
 @media screen and (max-width: 500px) {
     .header a {
       float: none;
