@@ -1,4 +1,39 @@
-<h1>In Love With Red Wine - Milestone Project 1</h1>
+<h1>In Love With Red Wine</h1>
+
+<h1>Initial Design</h1>
+<h1>Final Design</h1>
+<h1>Contents</h1>
+<h1>User Experience</h1>
+<h1>Design</h1>
+<h1>Color Scheme</h1>
+<h1>WireFrames</h1>
+<h1>Features</h1>
+<h1>Future Implementations</h1>
+<h1>Known Bugs</h1>
+<h1>Solved Bugs</h1>
+<h1>Technologies Used</h1>
+<h3>Font Awesome:</h3>
+<a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
+<p>was using for a few icons used in the footer aspect of the site pages.</p>
+<h3>Google Fonts:</h3>
+<a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
+<p>was used for all the text content on the site pages.</p>
+
+<h3>GitPod:</h3>
+<p>GitPod was used to write up the code for my project and using the GitPod terminal to commit everything to GitHub.</p>
+
+<h3>GitHub:</h3>
+<p>GitHub is being used to store all the code for this project after being pushed from GitPod.</p>
+<h3>Developer Tools:</h3>
+<p>Developer Tools was used for trouble shooting and trying new visual changes without it affect the current code already created.</p>
+<h1>Deployment</h1>
+<h1>Testing</h1>
+<h3>Code Validators</h3>
+<ul>
+<li>W3C <a>HTML</a> Validator Results</li>
+<li>W3C <a>CSS</a> Validator Results</li>
+</ul>
+<h1>Moblie</h1>
 
 
 
