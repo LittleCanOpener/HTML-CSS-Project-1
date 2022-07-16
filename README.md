@@ -34,8 +34,10 @@
 <h3>Developer Tools:</h3>
 <p>Developer Tools was used for trouble shooting and trying new visual changes without it affect the current code already created.</p>
 <h1>Deployment</h1>
+<h2>For Information</h2>
 <ul>
-<li><a href="https://www.wikipedia.org/">For Information Wikipedia</a></li>
+<li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
+<li><a href="https://www.apothic.co.uk/about#:~:text=In%2013th%20century%20Europe%2C%20the,vintage%20of%20her%20intriguing%20wines.">Apothic</a></li>
 <h2>CSS Styling & HTML Code</h2>
 <li><a href="https://www.w3schools.com/" target="_blank">W3schools</a></li>
 <li><a href="https://www.freecodecamp.org/" target="_blank">Free Code Camp</a></li>
