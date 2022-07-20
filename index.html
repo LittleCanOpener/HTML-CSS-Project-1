@@ -4,39 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Need a Website build?">
-    <meta name="keywords" content="website, build website, website designer, designer">
+    <meta name="description" content="#">
+    <meta name="keywords" content="#">
 
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Judo</title>
 </head>
 <body>
+<!--------------- Header & Navigation  --------------->
     <header>
-        <div class="header, hero-image  ">
-            <a class="logo" href="index.html"><h1>In Love With Red Wine</h1></a>
-            <div class="header-right">
-              <a class="active" href="index.html">Home</a>
-              <a href="recommend.html">We Recommend</a>
-              <a href="guide.html">Guide</a>
-            </div>
-          </div>    
+      <nav class="navbar">
+        <a class="navbar-logo" href="index.html"><img src="./assets/images/pngegg.png" alt="Judo Logo"></img></a>
+        <div class="header">
+          <div class="pages">
+            <ul>
+              <li class="pages"><a class="active" href="index.html">Home</a></li>
+              <li class="pages"><a href="#">Page2</a></li>
+              <li class="pages"><a href="#">Page3</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
     </header>
-    <section class="main">
-      <div class="flex-container">
-        <div id="text" style="order: 1"> <img src="./assets/images/pexels-photo-1706013.jpeg" alt="Two women enjoying red wine">
-          <p><h2>Always keep a bottle at hand</h2>
-          Red wine only gets better with age when stored properly and kept unopened it can live up to 2-3 years.<br></p>
-        </div>
-        <div id="text" style="order: 2"><img src="./assets/images/pexels-photo-1850595.jpeg" alt="Woman enjoying the late night with red wine">
-          <p><h2>Appreciate the work set into each bottle</h2></p>
-        </div>
-        <div id="text" style="order: 3"> <img src="./assets/images/pexels-photo-3171201.jpeg" alt="group of people enjoying quality food with red wine">
-          <p><h2>Wine is always better when shared</h2>
-          Enjoy the quality of the wine with others</p>
-        </div>
-      </div>
-    </section>
+<!--------------- Body --------------->
+    <div class="origin"><h1>The Founder of Judo</h1><img src="./assets/images/Jigoro Kano.jpg" alt="Master Kano Jigoro"><h2>Kano Jigoro</h2><br>
+<!-------------- Slideshow container -------------->
+<div class="slideshow-container">
+
+<!--------------- Full-width & Quotes --------------->
+  <div class="Quotes">
+    <q>It is not important to be better than someone else, but to be better than yesterday.</q>
+    <p class="author">- Kano Jigoro</p>
+  </div>
+  
+  <div class="Quotes">
+    <q>If there is effort, there is always accomplishment.</q>
+    <p class="author">- Kano Jigoro</p>
+  </div>
+
+  <div class="Quotes">
+    <q>Judo helps us to understand that worry is a waste of energy.</q>
+    <p class="author">- Kano Jigoro</p>
+  </div>
+
+<!--------------- Next/prev buttons --------------->
+<div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<!--------------- Dots --------------->
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+</div>
+    <div class="the-art"><h1>Maximum Efficiency with Minimum Effort</h1><br><img src="./assets/images/pngegg (9).png" alt="Respect to the master"></div>
+<!--------------- Footer --------------->
   <footer>
     <div class="footer">
       <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>

@@ -8,10 +8,10 @@
 </ul>
 <h1>Color Scheme</h1>
 <ul>
-<li>RGB(124, 35, 35);</li>
-<li>RGB(73, 20, 20);</li>
-<li>RGB(41, 41, 41);</li>
-<li>Box Shadow: RGB(0, 0, 0);</li>
+<li>RGB(0, 0, 0);</li>
+<li>RGB(0, 0, 0);</li>
+<li>RGB(0, 0, 0);</li>
+<li>RGB(0, 0, 0);</li>
 </ul>
 <h1>WireFrames</h1>
 <h1>Features</h1>
@@ -37,7 +37,7 @@
 <h2>For Information</h2>
 <ul>
 <li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
-<li><a href="https://www.apothic.co.uk/about#:~:text=In%2013th%20century%20Europe%2C%20the,vintage%20of%20her%20intriguing%20wines.">Apothic</a></li>
+<li><a href="#"></a></li>
 <h2>CSS Styling & HTML Code</h2>
 <li><a href="https://www.w3schools.com/" target="_blank">W3schools</a></li>
 <li><a href="https://www.freecodecamp.org/" target="_blank">Free Code Camp</a></li>
@@ -52,10 +52,7 @@
 <li>W3C <a>CSS</a> Validator Results</li>
 <h1>Moblie</h1>
 </ul>
-<h1>Images & Logos</h1>
+<h1>Images</h1>
 <p>
-<a href="https://www.gallo.com/" target="_blank"><h3>E&J. Gallo Winery</h3></a><br>
-<a href="https://www.martini.com/" target="_blank"><h3>Martini</h3></a><br>
-<a href="https://www.apothic.com/" target="_blank"><h3>Apothic</h3></a><br>
 <a href="https://www.pexels.com/" target="_blank">Pexels</a>
 </p>

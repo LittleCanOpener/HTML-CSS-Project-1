@@ -6,163 +6,110 @@
     padding: 0;
     border: none;
 }
-/**/
-/*-------------------------Navbar-------------------------*/
-.header-right {
+/*------------------------- Header & Title/Logo -------------------------*/
+.navbar {
+    height: 120px;
     width: 100%;
-    background-color: rgb(124, 35, 35);
-    overflow: hidden;
-    position: relative;
 }
-.header-right a {
-    float: right;
-    text-align: center;
-    width: 20%;
-    padding: 14px 16px;
-    color: white;
-    font-size: 36px;
-    text-decoration: none;
-    line-height: 10px;
-}
-.header-right a:hover {
-    box-shadow: 0 8px 30px rgb(0, 0, 0);
-    transition: 0.3s;
-    border-radius: 5px;
-}
-.header-right a.active {
-    background-color: rgb(73, 20, 20);
-    box-shadow: 0 8px 30px rgb(41, 41, 41);
-    transition: 0.3s;
-    border-radius: 5px;
-}
-/**/
-.header-right a.logo {
-    font-size: 25px;
-    font-weight: bold;
-}
-/**/
-/*-------------------------Logo & Hero-Image-------------------------*/
-.logo {
-    width: 250px;
-    height: 100px;
-    text-align: left;
-    color: white;
-}
-.hero-image {
-    background-image: url(https://images.pexels.com/photos/10075346/pexels-photo-10075346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: cover;
-    width: 1780px;
-    height: 480px;
-    margin: auto;
-    margin-top: 8px;
-}
-/**/
-/*-------------------------Body & Structure-------------------------*/
-body {
-    background-color: rgb(46, 10, 10);;
-    font-family: Playfair+Display, sans-serif;
-    font-weight: 300;
-    color: white;
-    margin: 0 auto;
-}
-h1, h2 {
-    font-family: Cormorant, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: white;
-    font-size: 28px;
-}
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: space-around;
-    height: 600px;
-    width: 100%;
-    position: absolute;
+.pages {
     margin: 0;
     padding: 0;
-}
-.flex-container > div > img {
-    flex-direction: row;
-    width: 360px;
-    height: 280px;
-    margin-top: 12px;
-    border-radius: 50%;
-}
-.flex-container > img {
-    text-align:center;
-    display: table-column;
-}
-#text {
-    width: 26%;
-    padding-bottom: 32px;
-    text-align: center;
-}
-.guide {
-    text-align: center;
-    padding-left: 38px;
-    float: left;
-    margin: 24px;
-}
-.text-container > p , h2 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-}
-a:link, a:visited  {
-    color: white;
-}
-p {
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-}
-.dine {
-    text-align: center;
-    padding-right: 38px;
     float: right;
-    margin: 24px;
+    font-size: 32px;
 }
-/**/
-/*-------------------------Footer & Social Media-------------------------*/
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    min-height: 30px;
-    background-color: rgb(124, 35, 35);
-    color: white;
+.navbar-logo > img {
+    padding: 10px;
+    width: 128px;
+    height: 96px;
+    float: left;
+}
+a {
+    padding: 8px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+li a {
+    color: black;
+    text-align: center;
+    margin: 14px 16px;
+    text-decoration: none;
+}
+/*------------------------- Body  -------------------------*/
+body {
+    background-color: lightgrey;
+}
+.the-art {
     text-align: center;
 }
-.footer a:visited {
-    color: white;
+.the-art > img {
+    width: 180px;
+    height: 180px;
 }
-.footer a:link {
-    color: white;
+.origin {
+    text-align: center;
 }
-.footer i {
+/*-------------------------Quotes-------------------------*/
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+}
+  
+  /* ---------------Slides--------------- */
+.Quotes {
+    display: none;
+    padding: 80px;
+    text-align: center;
+}
+  /* ---------------Next & previous buttons--------------- */
+.prev , .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
     font-size: 20px;
-    width: 40px;
-    padding: 6px;
-} 
-/**/
-/*-------------------------Other Devices-------------------------*/
-@media (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
-    }
-  }
-
-@media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: grid;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
-  }
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+  /* ---------------Position the "Next buttons" --------------- */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+  /* --------------- Hover --------------- */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+  
+  /* --------------- Dot-Container --------------- */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+  /* ---------------The Dots--------------- */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active-dot, .dot:hover {
+    background-color: #717171;
+}
+/*------------------------- Other Devices -------------------------*/
