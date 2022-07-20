@@ -79,13 +79,62 @@ fieldset {
 }
 /*--------------------------Community/Body------------------*/
 .judo {
-    width: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.column > img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+.FED {
+    width: 220px;
+    border-radius: 50%;
+}
+.EU {
+    width: 350px;
+}
+.IS {
+    width: 220px;
+    border-radius: 50%;
+}
+.IE {
+    width: 220px;
+    border-radius: 50%;
+}
+.UK {
+    width: 350px;
+}
+.NOR {
+    width: 220px;
+    border-radius: 50%;
 }
 /*-------------------------Footer------------------------------*/
 footer {
     position: fixed;
     bottom: 0;
+    height: 20px;
+    width: 100%;
+    background-color: #eeeeee;
 }
 /*------------------------- Other Devices -------------------------*/
+
+/*------------------------Community------------------------------*/
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
