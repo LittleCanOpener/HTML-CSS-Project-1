@@ -10,6 +10,8 @@
 .navbar {
     height: 120px;
     width: 100%;
+    background-color: #eeeeee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .pages {
     margin: 0;
@@ -38,9 +40,10 @@ li a {
     margin: 14px 16px;
     text-decoration: none;
 }
-/*------------------------- Body  -------------------------*/
+/*------------------------- Home/Body  -------------------------*/
 body {
-    background-color: lightgrey;
+    text-align: center;
+    background-color: white;
 }
 .the-art {
     text-align: center;
@@ -52,64 +55,37 @@ body {
 .origin {
     text-align: center;
 }
-/*-------------------------Quotes-------------------------*/
-.slideshow-container {
-    position: relative;
-    background: #f1f1f1f1;
+/*-----------------------Rules/Body-----------------------*/
+legend {
+    padding-top: 24px;
+    border: none;
+    color: black;
 }
-  
-  /* ---------------Slides--------------- */
-.Quotes {
-    display: none;
-    padding: 80px;
+fieldset {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 8px;
+    margin-bottom: 72px;
+    background-color: #eeeeee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    height: auto;
+}
+.rule {
+    padding-top: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    word-wrap: break-word;
+}
+/*--------------------------Community/Body------------------*/
+.judo {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
-  /* ---------------Next & previous buttons--------------- */
-.prev , .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -30px;
-    padding: 16px;
-    color: #888;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-  
-  /* ---------------Position the "Next buttons" --------------- */
-.next {
-    position: absolute;
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-  
-  /* --------------- Hover --------------- */
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-    color: white;
-}
-  
-  /* --------------- Dot-Container --------------- */
-.dot-container {
-    text-align: center;
-    padding: 20px;
-    background: #ddd;
-}
-  /* ---------------The Dots--------------- */
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-.active-dot, .dot:hover {
-    background-color: #717171;
+/*-------------------------Footer------------------------------*/
+footer {
+    position: fixed;
+    bottom: 0;
 }
 /*------------------------- Other Devices -------------------------*/
