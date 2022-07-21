@@ -93,25 +93,31 @@ fieldset {
     vertical-align: middle;
     width: 100%;
 }
-.FED {
-    width: 220px;
-    border-radius: 50%;
-}
 .EU {
     width: 350px;
-}
-.IS {
-    width: 220px;
-    border-radius: 50%;
-}
-.IE {
-    width: 220px;
-    border-radius: 50%;
 }
 .UK {
     width: 350px;
 }
-.NOR {
+
+.USA {
+    width: 350px;
+}
+.AUS {
+    width: 350px;
+}
+.NIR {
+    width: 350px;
+}
+.FR {
+    width: 350px;
+}
+/*---Other---*/
+.IE {
+    width: 220px;
+    border-radius: 50%;
+}
+.FED {
     width: 220px;
     border-radius: 50%;
 }
