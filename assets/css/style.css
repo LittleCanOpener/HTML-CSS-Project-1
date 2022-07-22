@@ -40,6 +40,9 @@ li a {
     margin: 14px 16px;
     text-decoration: none;
 }
+.active {
+    border: black solid 2px ;
+}
 /*------------------------- Home/Body  -------------------------*/
 body {
     text-align: center;
@@ -55,21 +58,25 @@ body {
 .origin {
     text-align: center;
 }
+.origin > img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /*-----------------------Rules/Body-----------------------*/
 legend {
-    padding-top: 24px;
     border: none;
     color: black;
 }
-fieldset {
+p {
     margin-left: 400px;
     margin-right: 400px;
     margin-top: 8px;
-    margin-bottom: 72px;
+    margin-bottom: 28px;
     background-color: #eeeeee;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     height: auto;
+    padding: 4px;
+    font-size: 16px;
 }
 .rule {
     padding-top: 12px;
@@ -77,57 +84,76 @@ fieldset {
     padding-right: 32px;
     word-wrap: break-word;
 }
+form {
+    margin: 10px;
+}
 /*--------------------------Community/Body------------------*/
-.judo {
-    display: flex;
+.gallery {
+    margin: auto;
+    display: block;
     flex-wrap: wrap;
     padding: 0 4px;
 }
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
+.judo {
+    margin-left: 400px;
+    column-span: all;
+    column-gap: 20px;
+    columns: 2;
+    column-width: 100%;
 }
-.column > img {
-    margin-top: 8px;
-    vertical-align: middle;
+.country {
+    display: flex;
+    flex-direction: row;
     width: 100%;
+    height: auto;
 }
-.EU {
-    width: 350px;
-}
+            /*---------Countries------------*/
+/*-------------------United Kingdoms-----------------*/
 .UK {
-    width: 350px;
+    height: 200px;
+    width: 400px;
 }
-
+.UK:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*----------------------United States---------------------*/
 .USA {
-    width: 350px;
+    height: 200px;
+    width: 400px;
 }
+.USA:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*----------------------Australia----------------------*/
 .AUS {
-    width: 350px;
+    height: 200px;
+    width: 400px;
 }
-.NIR {
-    width: 350px;
+.AUS:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+/*----------------------France----------------------*/
 .FR {
-    width: 350px;
+    height: 200px;
+    width: 400px;
+}
+.FR:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*---Other---*/
 .IE {
     width: 220px;
     border-radius: 50%;
 }
-.FED {
-    width: 220px;
-    border-radius: 50%;
-}
 /*-------------------------Footer------------------------------*/
 footer {
     position: fixed;
+    left: 0;
     bottom: 0;
-    height: 20px;
     width: 100%;
     background-color: #eeeeee;
+    color: black;
+    text-align: center;
 }
 /*------------------------- Other Devices -------------------------*/
 
