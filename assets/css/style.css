@@ -39,7 +39,7 @@ header
   font-weight: 500;
   margin-top: 5px;
   color: #111;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   transition: 0.2s;
 }
 .pages:hover {
@@ -59,7 +59,7 @@ li a {
 .active {
   font-size: 24px;
 }
-/*------------------------- Home/Body  -------------------------*/
+/*------------------------- Body  -------------------------*/
 body {
   background-color: white;
 }
@@ -104,14 +104,23 @@ p {
   padding: 4px;
   font-size: 16px;
 }
-.gallery {
-  margin: auto;
-  display: block;
+.row {
+  display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 }
-.gallery img {
-  max-width: 600px;
+.column {
+  padding-top: 130px;
+  flex: 25%;
+  max-width: 25%;
+  background-color: #eeeeee;
+}
+.column img {
+  width: 95%;
+  height: auto;
+  background-size: 100%;
+  background-position: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*-------------------------Footer------------------------------*/
 footer {
@@ -134,5 +143,6 @@ footer {
     .column {
       flex: 100%;
       max-width: 100%;
+      padding: 4px;
     }
   }
