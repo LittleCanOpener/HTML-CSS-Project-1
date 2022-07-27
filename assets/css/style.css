@@ -14,7 +14,7 @@ header
   top: 0;
   left: 0;
   width: 100%;
-  padding: 40px 100px;
+  padding: 20px 100px;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -30,9 +30,8 @@ header
 .pages {
   text-align: center;
   height: auto;
-  padding: 4px;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   padding: 10px 40px;
   text-transform: uppercase;
   text-decoration: none;
@@ -122,18 +121,22 @@ p {
   background-position: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.map {
+/*--------
+.map
+  margin-top: 120px;
+  margin-left: 100px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 50%;
   overflow:hidden;
   padding-bottom:56.25%;
   position:relative;
   height:0;
-}
+  ------------*/
 
 .map iframe{
+  margin-top: 120px;
+  margin-left: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   left:0;
   top:0;
   height:40%;
@@ -149,6 +152,13 @@ footer {
   background-color: #dddddd;
   color: black;
   text-align: center;
+}
+.footer a {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.footer a:hover {
+  color: rgba(0, 0, 0, 0.658);
 }
 /*------------------------- Other Devices -------------------------*/
 @media screen and (max-width: 800px) {
