@@ -53,12 +53,12 @@
 <img src="assets/images/icons/HTML.svg" width="50px" height="50px">
 <h3>HTML:</h3>
 <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a>
-<p>###</p><br>
+<p>Was used to construct the core of the page.</p><br>
 
 <img src="assets/images/icons/CSS.svg" width="50px" height="50px">
 <h3>CSS:</h3>
 <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS</a>
-<p>####</p>
+<p>Was used to style the page after the core was made.</p>
 
 <h2>For Information</h2>
 <ul>
