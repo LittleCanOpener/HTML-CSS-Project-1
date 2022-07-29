@@ -75,16 +75,22 @@ body {
   z-index: 2;
 }
 p {
-  margin: 120px 400px;
+  margin-top: 410px;
   background-color: #dddddd;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   height: auto;
   width: 50%;
   border-radius: 25px;
-  padding: 4px;
+  padding: 6px;
   font-size: 17px;
   align-items: center;
+}
+.text {
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .row {
   display: flex;
