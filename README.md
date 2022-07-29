@@ -1,10 +1,13 @@
 <h1>Pardus - Milestone Project 1.</h1>
 <h1>User Experience</h1>
+<li>Assist the local Judo club <strong>Pardus</strong> to grow in popularity
+<li>Inspire more to join
+<li>
+
 <h1>Design</h1>
 <p>Inspired by the Love Running Project from <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>
-<ul>
+
 <li><a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/" target="_blank">Code Institute: Love Running Project</a></li>
-</ul>
 <h1>Color Scheme</h1>
 <ul>
 <li>RGB(0, 0, 0);</li>
@@ -12,18 +15,27 @@
 <li>RGB(0, 0, 0);</li>
 <li>RGB(0, 0, 0);</li>
 </ul>
-
 <h1>WireFrames</h1>
 
-
 <h1>Features</h1>
-
-
+<h2>Header</h2>
+<ul>
+<li>Contains a functional navigation bar with three pages.</li>
+<li>Company Logo.</li>
+</ul>
+<h2>Footer</h2>
+<ul>
+<li>Contains icon that links to social media.</li>
+</ul>
+<h2>Homepage</h2>
+<ul>
+<li>Contains an entery to the club and meant to capture the attention of viewers.</li>
+</ul>
 <h1>Known Bugs</h1>
-
+-------
 
 <h1>Solved Bugs</h1>
-
+---------
 
 <h1>Contents</h1>
 <img src="assets/images/icons/FontAwesome.png" width="50px" height="50px">
