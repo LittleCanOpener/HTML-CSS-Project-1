@@ -6,8 +6,7 @@
 
 <h1>Design</h1>
 <p>Inspired by the Love Running Project from <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>
-
-<li><a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/" target="_blank">Code Institute: Love Running Project</a></li>
+<ul><li><a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/" target="_blank">Code Institute: Love Running Project</a></li></ul>
 <h1>Color Scheme</h1>
 <ul>
 <li>RGB(0, 0, 0);</li>

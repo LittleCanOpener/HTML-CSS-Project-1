@@ -42,6 +42,7 @@ header {
   transition: 0.2s;
 }
 .logo {
+  z-index: 10;
   display: flex;
   align-items: left;
   text-align: left;
@@ -103,6 +104,18 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+.note, .time {
+  display: flex;
+  }
+  .time {
+    margin-left: 100px;
+    display: block;
+    word-break: break-all;
+    width: fit-content;
+    align-items: center;
+    justify-content: left;
+    background-color: #eeeeee;
+  }
 .row {
   display: flex;
   flex-wrap: wrap;
