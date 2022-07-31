@@ -23,7 +23,7 @@ header {
   text-align: center;
   height: 85px;
   width: 100%;
-  background-color: #dddddd;
+  background-color:	#870511;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 25px;
 }
@@ -50,8 +50,8 @@ header {
   position: absolute;
   border-radius: 15px;
   float: left;
-  width: 12vh;
-  height: 9.2vh;
+  width: 128px;
+  height: 85px;
 }
 .pages:hover {
   font-size: 20px;
@@ -75,7 +75,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: poppins, sans-serif;
-  background-color: white;
+  background-color: #222222;
 }
 .showcase {
   position: absolute;
@@ -88,7 +88,7 @@ body {
 }
 p {
   margin-top: 410px;
-  background-color: #dddddd;
+  background-color: #870511;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   height: auto;
@@ -114,7 +114,7 @@ justify-content: center;
     width: fit-content;
     align-items: center;
     justify-content: left;
-    background-color: #eeeeee;
+    background-color: #222222;
   }
 .row {
   display: flex;
@@ -125,7 +125,7 @@ justify-content: center;
   padding-top: 130px;
   flex: 25%;
   max-width: 25%;
-  background-color: #eeeeee;
+  background-color: #222222;
 }
 .column img {
   width: 95%;
@@ -150,27 +150,6 @@ justify-content: center;
 text-align: center;
 padding-top: 110px;
 }
-.video-container{
-  position: relative;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-.video-container video {
-  text-align: center;
-  z-index: -99999;
-  position: fixed;
-  width: auto;
-  height: auto;
-  min-width: 100%;
-  min-height: 100%;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 /*-------------------------Footer------------------------------*/
 footer {
   padding: 2px;
@@ -178,7 +157,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #dddddd;
+  background-color: #870511;
   color: black;
   text-align: center;
 }
