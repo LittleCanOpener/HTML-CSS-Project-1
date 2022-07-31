@@ -37,7 +37,7 @@ header {
   text-decoration: none;
   font-weight: 500;
   margin-top: 5px;
-  color: #111;
+  color: white;
   letter-spacing: 1px;
   transition: 0.2s;
 }
@@ -53,16 +53,20 @@ header {
   width: 128px;
   height: 85px;
 }
+.logo:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 20px;
+}
 .pages:hover {
   font-size: 20px;
   letter-spacing: 5px;
 }
 a { 
-  color: black;
+  color: white;
   padding: 8px;
 }
 li a {
-  color: black;
+  color: white;
   text-align: center;
   margin: 14px 16px;
   text-decoration: none;
@@ -87,35 +91,43 @@ body {
   z-index: 2;
 }
 p {
-  margin-top: 410px;
   background-color: #870511;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   height: auto;
-  width: 50%;
+  width: 60%;
   border-radius: 25px;
   padding: 6px;
   font-size: 17px;
+  align-items: right;
+}
+.trainings, .where-we-are {
+  margin-top: auto;
+  color: white;
+  background-color: #870511;
+  text-align: center;
+  height: auto;
+  width: fit-content;
+  border-radius: 25px;
+  padding: 6px;
+  font-size: 17px;
+  list-style-type: none;
+  display: inline-block;
+}
+.about-us {
+  columns: 3;
+  column-span: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+}
+.Kano {
   align-items: center;
 }
 .text {
-height: 200px;
-display: flex;
-align-items: center;
-justify-content: center;
+color: white;
 }
-.note, .time {
-  display: flex;
-  }
-  .time {
-    margin-left: 100px;
-    display: block;
-    word-break: break-all;
-    width: fit-content;
-    align-items: center;
-    justify-content: left;
-    background-color: #222222;
-  }
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -158,7 +170,7 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: #870511;
-  color: black;
+  color: white;
   text-align: center;
 }
 .footer a {
