@@ -96,30 +96,56 @@ p {
   height: auto;
   width: 60%;
   border-radius: 25px;
-  padding: 6px;
+  padding: 8px;
   font-size: 17px;
-  align-items: right;
+  align-items: center;
+  border-radius: 25px;
+  height: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 130px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main {
+  align-items: center;
+  margin: 8px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 780px;
+  height: 480px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .trainings, .where-we-are {
-  margin-top: auto;
   color: white;
   background-color: #870511;
   text-align: center;
-  height: auto;
-  width: fit-content;
   border-radius: 25px;
-  padding: 6px;
   font-size: 17px;
   list-style-type: none;
-  display: inline-block;
+  border-radius: 25px;
+  padding: 8px;
+  height: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 160px;
+}
+.Kano {
+  border-radius: 25px;
+  height: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 160px;
 }
 .about-us {
-  columns: 3;
-  column-span: 3;
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  display: inline-block;
 }
 .Kano {
   align-items: center;
@@ -127,7 +153,6 @@ p {
 .text {
 color: white;
 }
-
 .row {
   display: flex;
   flex-wrap: wrap;
