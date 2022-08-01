@@ -44,8 +44,6 @@ header {
 .logo {
   z-index: 10;
   display: flex;
-  align-items: left;
-  text-align: left;
   overflow: hidden;
   position: absolute;
   border-radius: 15px;
