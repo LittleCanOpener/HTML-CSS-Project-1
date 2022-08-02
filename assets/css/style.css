@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&family=Poppins:ital,wght@1,200;1,400;1,500&display=swap');
 
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: Poppins, sans-serif;
 }
-/*------------------------- Header & Title/Logo -------------------------*/
 header {
   position: absolute;
   top: 0;
@@ -87,45 +85,6 @@ form {
   background-color: #870511;
   border-radius: 15px;
 }
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-input[type=submit] {
-  border-radius: 25px;
-  background-color: #222222;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-input[type=submit]:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: #222222;
-}
-.container-contact {
-  align-items: center;
-  border-radius: 5px;
-  background-color: #222222;
-  padding: 10px;
-}
-.column-contact {
-  align-items: center;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
-}
-.row-contact:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/*------------------------- Body  -------------------------*/
 body {
   margin: 0;
   padding: 0;
@@ -204,18 +163,55 @@ p {
 .text {
 color: white;
 }
-.row {
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  border-radius: 25px;
+  background-color: #222222;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #222222;
+}
+.container-contact {
+  align-items: center;
+  border-radius: 5px;
+  background-color: #222222;
+  padding: 10px;
+}
+.column-contact {
+  align-items: center;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.row-contact:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row-gallery {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 }
-.column {
+.column-gallery {
   padding-top: 130px;
   flex: 25%;
   max-width: 25%;
   background-color: #222222;
 }
-.column img {
+.column-gallery > img {
   width: 95%;
   height: auto;
   background-size: 100%;
@@ -238,7 +234,6 @@ color: white;
 text-align: center;
 padding-top: 110px;
 }
-/*-------------------------Footer------------------------------*/
 footer {
   padding: 2px;
   position: fixed;
@@ -262,12 +257,6 @@ footer {
       flex: 50%;
       max-width: 50%;
     }
-  }
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
     .column {
       flex: 100%;
       max-width: 100%;
