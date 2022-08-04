@@ -271,6 +271,7 @@ footer {
     position: absolute;
     width: 100%;
     max-height: fit-content;
+    height: auto;
   }
   .logo {
     padding: 4px;
@@ -290,6 +291,19 @@ footer {
   }
   .active {
     font-size: 18px;
+  }
+  form {
+    margin-top: 55px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 6px;
+    width: 80%;
+    align-items: center;
+    text-align: left;
+  }
+  #subject {
+    margin: 0;
+    padding: 0;
   }
 }
 /*-------------@media screen and (max-width: 600px) {
