@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   font-family: Poppins, sans-serif;
-  max-width: 100%;
 }
 header {
   position: absolute;
@@ -304,6 +303,17 @@ footer {
   #subject {
     margin: 0;
     padding: 0;
+  }
+  .map {
+    bottom: 0;
+    left: 0;
+  }
+  .map iframe {
+    margin-top:  50px;
+    left: 0;
+    bottom: 0;
+    max-height: 25%;
+    max-width: 100%;
   }
 }
 /*-------------@media screen and (max-width: 600px) {
