@@ -306,16 +306,29 @@ footer {
     margin: 0;
     padding: 0;
   }
-  .map {
-    bottom: 0;
-    left: 0;
-  }
   .map iframe {
-    margin-top:  50px;
-    left: 0;
+    position:absolute;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 95vw;
     bottom: 0;
     max-height: 25%;
     max-width: 100%;
+  }
+  .about-us, .where-we-are, .trainings {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    text-align: center;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .Kano {
+    margin: 4px;
   }
   p {
     margin-top: 90px;
