@@ -316,11 +316,10 @@ footer {
     padding: 0;
   }
   .map iframe {
-    margin-top: 100px;
     position:absolute;
     margin-left: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 0;
+    margin-bottom: 0;
     width: 95vw;
     bottom: 0;
     max-height: 25%;
