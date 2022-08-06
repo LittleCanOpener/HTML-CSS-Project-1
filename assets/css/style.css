@@ -59,7 +59,6 @@ header {
 }
 a { 
   color: white;
-  padding: 8px;
 }
 li a {
   color: white;
@@ -272,26 +271,32 @@ footer {
     position: absolute;
     width: 100%;
     max-height: fit-content;
-    height: auto;
+    height: 80px;
   }
   .logo {
-    padding: 4px;
-    float: left;
-    width: 64px;
-    height: 45px;
-    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 36px;
+    height: 28px;
+    border-radius: 0;
   }
   .showcase {
     width: 100%;
   }
   .pages {
-    padding-top: 2px;
-    padding-left: 14px;
-    flex-wrap: nowrap;
+    margin-top: 0;
+    display: block;
+    padding: 6px;
     font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header {
+    columns: 2;
+    column-span: all;
   }
   .active {
-    font-size: 18px;
+    font-size: 17px;
   }
   form {
     margin-top: 55px;
