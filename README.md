@@ -96,8 +96,13 @@
 
 <h2>For Information</h2>
 <ul>
-<li><a href="#"></a></li>
-<li><a href="#"></a></li>
+<li><a href="https://www.mbl.is/sport/frettir/2014/11/10/gjorbreytt_adstada_fyrir_judo_a_blonduosi/" target="_blank">MBL</a></li>
+<li><a href="http://hedinsfjordur.is/nordurlandsmot-i-judo-a-blonduosi/" target="_blank">Héðinsfjörður</a></li>
+<li><a href="https://www.feykir.is/is/frettir/aefingabudir-i-judo-a-blonduosi" target="_blank">Feykir</a></li>
+<li><a href="https://www.huni.is/index.php?pid=32&cid=13659" target="_blank">Húni</a></li>
+<li><a href="http://www.tindastoll.is/judo/moya/news/aefingabuidir-i-judo-a-blonduosi" target="_blank">Tindastóll</a></li>
+</ul>
+<hr>
 <h2>CSS Styling & HTML Code</h2>
 <li><a href="https://www.w3schools.com/" target="_blank">W3schools</a></li>
 <li><a href="https://www.freecodecamp.org/" target="_blank">Free Code Camp</a></li>
@@ -109,12 +114,12 @@
 <h1>Testing</h1>
 <h3>Code Validators</h3>
 <ul>
-<li>W3C <a>HTML</a> Validator Results</li>
-<li>W3C <a>CSS</a> Validator Results</li>
-<h1>Moblie</h1>
+<li>W3C <a href="https://validator.w3.org/nu/#textarea" target="_blank">HTML</a> Validator Results</li>
+<li>W3C <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">CSS</a> Validator Results</li>
 </ul>
+<h1>Moblie</h1>
+
 
 <h1>Images</h1>
-<p>
-<a href="https://www.pexels.com/" target="_blank">Pexels</a>
-</p>
+<a href="https://www.facebook.com/judofelagidpardus/" target="_blank">Pardus
+</a>
