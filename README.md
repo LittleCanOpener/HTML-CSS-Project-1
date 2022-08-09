@@ -17,19 +17,42 @@
 <h1>WireFrames</h1>
 
 <h1>Features</h1>
-<h2>Header</h2>
+<h2>Header :</h2>
+<img src="./assets/images/readme/Header.png" with="100%" height="50">
 <ul>
-<li>Contains a functional navigation bar with three pages.</li>
+<li>Contains a responsive navigation bar with four pages.</li>
 <li>Company Logo.</li>
-</ul>
-<h2>Footer</h2>
-<ul>
+</ul><hr>
+<h2>Footer :</h2>
+<img src="./assets/images/readme/Footer.png" with="100%" height="10px">
 <li>Contains icon that links to social media.</li>
-</ul>
-<h2>Homepage</h2>
+<li>Footer fixed inplace to make it more convenient for the sport it self visually and the club to gain popularity</li>
+<li>#</li>
+</ul><hr>
+<h2>Home :</h2>
+<img src="./assets/images/readme/Home.png">
 <ul>
 <li>Contains an entery to the club and meant to capture the attention of viewers.</li>
-</ul>
+</ul><hr>
+
+<h2>Join us</h2>
+<img src="./assets/images/readme/Join-Us.png">
+<ul>
+<li>#</li>
+</ul><hr>
+
+<h2>Gallery</h2>
+<img src="./assets/images/readme/Gallery.jpg">
+<ul>
+<li>#</li>
+</ul><hr>
+
+<h2>Contact us</h2>
+<img src="./assets/images/readme/Contact-Us.png">
+<ul>
+<li>#</li>
+</ul><hr>
+
 <h1>Known Bugs</h1>
 -------
 
@@ -37,39 +60,39 @@
 ---------
 
 <h1>Contents</h1>
-<img src="assets/images/icons/FontAwesome.png" width="50px" height="50px">
+<img src="./assets/images/icons/FontAwesome.png" width="50px" height="50px">
 <h3>Font Awesome:</h3>
 <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
-<p>was used for the media icons used in the footer.</p><br>
+<p>was used for the media icons used in the footer.</p><hr>
 
-<img src="assets/images/icons/google-fonts.svg" width="50px" height="50px">
+<img src="./assets/images/icons/google-fonts.svg" width="50px" height="50px">
 <h3>Google Fonts:</h3>
 <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
-<p>was used for all the text content on the site pages.</p><br>
+<p>was used for all the text content on the site pages.</p><hr>
 
-<img src="assets/images/icons/Gitpod.svg" width="50px" height="50px">
+<img src="./assets/images/icons/Gitpod.svg" width="50px" height="50px">
 <h3>GitPod:</h3>
 <a href="https://www.gitpod.io/" target="_blank">GitPod</a>
-<p>was used to write up the code for my project and using the GitPod terminal to commit everything to GitHub.</p><br>
+<p>was used to write up the code for my project and using the GitPod terminal to commit everything to GitHub.</p><hr>
 
-<img src="assets/images/icons/Github.svg" width="50px" height="50px">
+<img src="./assets/images/icons/Github.svg" width="50px" height="50px">
 <h3>GitHub:</h3>
 <a href="https://github.com/" target="_blank">GitHub</a>
-<p>was used to store all the code for this project after being pushed from GitPod.</p><br>
+<p>was used to store all the code for this project after being pushed from GitPod.</p><hr>
 
-<img src="assets/images/icons/GoogleDevTools.png" width="50px" height="50px" role="img" viewBox="0 0 24 24">
+<img src="./assets/images/icons/GoogleDevTools.png" width="50px" height="50px" role="img" viewBox="0 0 24 24">
 <h3>Google Chrome Developer Tools:</h3>
-<p>Developer Tools was used for trouble shooting and trying new visual changes without it affect the current code already created.</p><br>
+<p>Developer Tools was used for trouble shooting and trying new visual changes without it affect the current code already created.</p><hr>
 
-<img src="assets/images/icons/HTML.svg" width="50px" height="50px">
+<img src="./assets/images/icons/HTML.svg" width="50px" height="50px">
 <h3>HTML:</h3>
 <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a>
-<p>Was used to construct the core of the page.</p><br>
+<p>Was used to construct the core of the page.</p><hr>
 
-<img src="assets/images/icons/CSS.svg" width="50px" height="50px">
+<img src="./assets/images/icons/CSS.svg" width="50px" height="50px">
 <h3>CSS:</h3>
 <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS</a>
-<p>Was used to style the page after the core was made.</p>
+<p>Was used to style the page after the core was made.</p><hr>
 
 <h2>For Information</h2>
 <ul>
