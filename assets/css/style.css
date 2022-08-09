@@ -127,7 +127,7 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-.trainings, .where-we-are {
+.trainings {
   color: white;
   background-color: #870511;
   text-align: center;
@@ -316,10 +316,9 @@ footer {
     padding: 0;
   }
   .map iframe {
-    position:absolute;
     margin-left: 10px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: -70px;
     width: 95vw;
     bottom: 0;
     max-height: 25%;
@@ -329,7 +328,7 @@ footer {
     bottom: 0;
     display: inline-flex;
   }
-  .about-us, .where-we-are, .trainings {
+  .about-us {
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -341,14 +340,21 @@ footer {
     flex: 100%;
     max-width: 100%;
   }
-  .where-we-are {
+  .trainings {
+    text-align: center;
+    border-radius: 25px;
+    font-size: 17px;
+    list-style-type: none;
+    border-radius: 25px;
+    padding: 8px;
+    height: fit-content;
+    margin-left: 70px;
+    margin-right: 70px;
     margin-top: 90px;
   }
-  .trainings {
-    margin-bottom: 200px;
-  }
   .Kano {
-    margin: 4px;
+    margin-top: 6px;
+    margin-bottom: 6px;
   }
   p {
     margin-top: 90px;
@@ -360,10 +366,10 @@ footer {
     height: auto;
     width: 90vw;
   }
-}
-/*-------------@media screen and (max-width: 600px) {
-  .pages {
-    float: right;
-    display: block;
+  footer {
+    margin-top: -50px;
+  }
+  .map {
+    margin-bottom: 240px;
   }
 }
