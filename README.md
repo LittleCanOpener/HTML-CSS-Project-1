@@ -38,7 +38,9 @@
 <h2>Join us</h2>
 <img src="./assets/images/readme/Join-Us.png">
 <ul>
-<li>#</li>
+<li>Contains schedules of trainings</li>
+<li>Where they are</li>
+<li>Google Map</li>
 </ul><hr>
 
 <h2>Gallery</h2>
@@ -84,6 +86,11 @@
 <h3>Google Chrome Developer Tools:</h3>
 <p>Developer Tools was used for trouble shooting and trying new visual changes without it affect the current code already created.</p><hr>
 
+<img src="./assets/images/icons/Google-Maps.png" width="50px" height="50px" role="img" viewBox="0 0 24 24">
+<h3>Google Maps:</h3>
+<a href="https://www.google.com/maps/" target="_blank">Google Maps</a>
+<p>Google Maps used to pinpoint the location of the club for further information</p><hr>
+
 <img src="./assets/images/icons/HTML.svg" width="50px" height="50px">
 <h3>HTML:</h3>
 <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a>
@@ -104,6 +111,7 @@
 </ul>
 <hr>
 <h2>CSS Styling & HTML Code</h2>
+<ul>
 <li><a href="https://www.w3schools.com/" target="_blank">W3schools</a></li>
 <li><a href="https://www.freecodecamp.org/" target="_blank">Free Code Camp</a></li>
 <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS-Tricks</a></li>
