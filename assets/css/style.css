@@ -254,6 +254,17 @@ footer {
   color: rgba(0, 0, 0, 0.658);
 }
 /*------------------------- Other Devices -------------------------*/
+@media screen and (max-width: 700px) {
+  form {
+    margin-top: 34px;
+    margin-bottom: auto;
+  }
+}
+@media screen and (max-width: 740px) {
+  form {
+    margin-top: 20%;
+  }
+}
 @media screen and (max-width: 800px) {
   .column-gallery {
     text-align: center;
@@ -327,9 +338,23 @@ footer {
     margin: 0;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   form {
-    margin-top: 34px;
-    margin-bottom: auto;
+    margin-top: 30%;
+  }
+  .about-us {
+    margin-top: 90px;
+  }
+  .trainings {
+    margin-top: 0;
+  }
+  .Kano {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+  }
+  .map {
+    display: none;
   }
 }
