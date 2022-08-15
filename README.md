@@ -1,4 +1,5 @@
 <h1>Pardus - Milestone Project 1.</h1>
+<img src="./assets/images/readme/responsive.png">
 <h1>User Experience</h1>
 <li>Assist the local Judo club <strong>Pardus</strong> to grow in popularity
 <li>Inspire more to join
@@ -7,15 +8,6 @@
 <h1>Design</h1>
 <p>Inspired by the Love Running Project from <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>
 <ul><li><a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/" target="_blank">Code Institute: Love Running Project</a></li></ul>
-<h1>Color Scheme</h1>
-<ul>
-<li>RGB(0, 0, 0);</li>
-<li>RGB(0, 0, 0);</li>
-<li>RGB(0, 0, 0);</li>
-<li>RGB(0, 0, 0);</li>
-</ul>
-<h1>WireFrames</h1>
-
 <h1>Features</h1>
 <h2>Header :</h2>
 <img src="./assets/images/readme/Header.png" with="100%" height="50">
@@ -27,65 +19,69 @@
 <img src="./assets/images/readme/Footer.png" with="100%" height="10px">
 <li>Contains icon that links to social media.</li>
 <li>Footer fixed inplace to make it more convenient for the sport it self visually and the club to gain popularity</li>
-<li>#</li>
 </ul><hr>
 <h2>Home :</h2>
 <img src="./assets/images/readme/Home.png">
 <ul>
-<li>Contains an entery to the club and meant to capture the attention of viewers.</li>
+<li>Contains an entery to the club, meant to capture the attention of viewers.</li>
 </ul><hr>
 
 <h2>Join us</h2>
 <img src="./assets/images/readme/Join-Us.png">
 <ul>
 <li>Contains schedules of trainings</li>
-<li>Where they are</li>
+<li>Location</li>
 <li>Google Map</li>
 </ul><hr>
 
 <h2>Gallery</h2>
 <img src="./assets/images/readme/Gallery.jpg">
 <ul>
-<li>#</li>
+<li>Images from 2015</li>
 </ul><hr>
 
 <h2>Contact us</h2>
 <img src="./assets/images/readme/Contact-Us.png">
 <ul>
-<li>#</li>
+<li>Contact page for any client or general questions</li>
 </ul><hr>
 
 <h1>Known Bugs</h1>
--------
+<ol>
+<li>Images don't have "Alts"</li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
 
 <h1>Solved Bugs</h1>
----------
+<ol>
+<li>Fixed</li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
 
 <h1>Contents</h1>
 <img src="./assets/images/icons/FontAwesome.png" width="50px" height="50px">
 <h3>Font Awesome:</h3>
 <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
 <p>was used for the media icons used in the footer.</p><hr>
-
 <img src="./assets/images/icons/google-fonts.svg" width="50px" height="50px">
 <h3>Google Fonts:</h3>
 <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
 <p>was used for all the text content on the site pages.</p><hr>
-
 <img src="./assets/images/icons/Gitpod.svg" width="50px" height="50px">
 <h3>GitPod:</h3>
 <a href="https://www.gitpod.io/" target="_blank">GitPod</a>
 <p>was used to write up the code for my project and using the GitPod terminal to commit everything to GitHub.</p><hr>
-
 <img src="./assets/images/icons/Github.svg" width="50px" height="50px">
 <h3>GitHub:</h3>
 <a href="https://github.com/" target="_blank">GitHub</a>
 <p>was used to store all the code for this project after being pushed from GitPod.</p><hr>
-
 <img src="./assets/images/icons/GoogleDevTools.png" width="50px" height="50px" role="img" viewBox="0 0 24 24">
 <h3>Google Chrome Developer Tools:</h3>
 <p>Developer Tools was used for trouble shooting and trying new visual changes without it affect the current code already created.</p><hr>
-
 <img src="./assets/images/icons/Google-Maps.png" width="50px" height="50px" role="img" viewBox="0 0 24 24">
 <h3>Google Maps:</h3>
 <a href="https://www.google.com/maps/" target="_blank">Google Maps</a>
@@ -122,10 +118,17 @@
 <h1>Testing</h1>
 <h3>Code Validators</h3>
 <ul>
-<li>W3C <a href="https://validator.w3.org/nu/#textarea" target="_blank">HTML</a> Validator Results</li>
-<li>W3C <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">CSS</a> Validator Results</li>
+<li>W3C <a href="https://validator.w3.org/nu/#textarea" target="_blank">HTML</a> Validator Results - <strong>PASSED</strong></li>
+<li>W3C <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">CSS</a> Validator Results - <strong>PASSED</strong></li>
 </ul>
-<h1>Moblie</h1>
+<h3>Lighthouse:</h3>
+<hr>
+<h2>Desktop:</h2>
+<img src="./assets/images/readme/Desktop.png">
+<hr>
+<h2>Moblie:</h2>
+<img src="./assets/images/readme/Moblie.png">
+
 
 
 <h1>Images</h1>
