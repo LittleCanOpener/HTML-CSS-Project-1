@@ -131,6 +131,6 @@
 
 
 
-<h1>Images</h1>
+<h1>Images:</h1>
 <a href="https://www.facebook.com/judofelagidpardus/" target="_blank">Pardus
-</a>
+</a>Facebook page
