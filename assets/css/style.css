@@ -354,7 +354,20 @@ footer {
     margin-right: auto;
     margin-top: 6px;
   }
+  .map > iframe {
+    width: 100vw;
+    height: 40vh;
+    margin-top: 6px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 60px;
+    left: 0;
+    bottom: auto;
+  }
   .map {
-    display: none;
+    margin-bottom: 310px;
+  }
+  footer {
+    margin-top: 60px;
   }
 }
