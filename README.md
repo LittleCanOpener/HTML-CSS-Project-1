@@ -8,11 +8,22 @@
 <h1>Design</h1>
 <p>Inspired by the Love Running Project from <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>
 <ul><li><a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/" target="_blank">Code Institute: Love Running Project</a></li></ul>
+<h3>Images:</h3>
+<a href="https://www.facebook.com/judofelagidpardus/" target="_blank">Pardus
+</a>Facebook page<br>
+<a href="https://commons.wikimedia.org/wiki/Category:Kan%C5%8D_Jigor%C5%8D" target="_blank">Wikimedia</a>
+<h3>Colour Scheme:<h3>
+<ul>
+<li>White text used to make it easier for the letters to popout</li>
+<li>#870511 used to symbolize the color of the logo</li>
+<li>#222222 used to symbolize the color of the logo and to have an opposite color against the text to make them both stand out for the visually impaired (Requested by my younger brother)</li>
+</ul>
 <h1>Features</h1>
 <h2>Header :</h2>
 <img src="./assets/images/readme/Header.png" with="100%" height="50">
 <ul>
-<li>Contains a responsive navigation bar with four pages.</li>
+<li>Contains a navigation bar with four pages that will react to mouse movement.</li>
+<li>Active pages will remain bigger and heavier to let users know where they are.</li>
 <li>Company Logo.</li>
 </ul><hr>
 <h2>Footer :</h2>
@@ -24,23 +35,25 @@
 <img src="./assets/images/readme/Home.png">
 <ul>
 <li>Contains an entery to the club, meant to capture the attention of viewers.</li>
+<li>Contains an image of students</li>
 </ul><hr>
 
-<h2>Join us</h2>
+<h2>Join us :</h2>
 <img src="./assets/images/readme/Join-Us.png">
 <ul>
-<li>Contains schedules of trainings</li>
+<li>Schedules of trainings</li>
 <li>Location</li>
 <li>Google Map</li>
+<li>Image of Kanō Jigorō, founder of Judo</li>
 </ul><hr>
 
-<h2>Gallery</h2>
+<h2>Gallery :</h2>
 <img src="./assets/images/readme/Gallery.jpg">
 <ul>
 <li>Images from 2015</li>
 </ul><hr>
 
-<h2>Contact us</h2>
+<h2>Contact us :</h2>
 <img src="./assets/images/readme/Contact-Us.png">
 <ul>
 <li>Contact page for any client or general questions</li>
@@ -49,7 +62,7 @@
 <h1>Known Bugs</h1>
 <ol>
 <li>Images don't have "Alts"</li>
-<li></li>
+<li>Google maps not staying in place for mobile devices</li>
 <li></li>
 <li></li>
 </ol>
@@ -57,12 +70,12 @@
 <h1>Solved Bugs</h1>
 <ol>
 <li>Fixed</li>
-<li></li>
+<li>Fixed</li>
 <li></li>
 <li></li>
 </ol>
 
-<h1>Contents</h1>
+<h1>Technologies</h1>
 <img src="./assets/images/icons/FontAwesome.png" width="50px" height="50px">
 <h3>Font Awesome:</h3>
 <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
@@ -120,15 +133,10 @@
 <ul>
 <li>W3C <a href="https://validator.w3.org/nu/#textarea" target="_blank">HTML</a> Validator Results - <strong>PASSED</strong></li>
 <li>W3C <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">CSS</a> Validator Results - <strong>PASSED</strong></li>
+<li>All links to external websites must open in a new browser</li>
 </ul>
 <h2>Lighthouse:</h2>
 <h3>Desktop:</h3>
 <img src="./assets/images/readme/Desktop.png">
 <h3>Moblie:</h3>
 <img src="./assets/images/readme/Moblie.png">
-
-
-
-<h1>Images:</h1>
-<a href="https://www.facebook.com/judofelagidpardus/" target="_blank">Pardus
-</a>Facebook page
