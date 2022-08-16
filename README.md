@@ -121,12 +121,10 @@
 <li>W3C <a href="https://validator.w3.org/nu/#textarea" target="_blank">HTML</a> Validator Results - <strong>PASSED</strong></li>
 <li>W3C <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">CSS</a> Validator Results - <strong>PASSED</strong></li>
 </ul>
-<h3>Lighthouse:</h3>
-<hr>
-<h2>Desktop:</h2>
+<h2>Lighthouse:</h2>
+<h3>Desktop:</h3>
 <img src="./assets/images/readme/Desktop.png">
-<hr>
-<h2>Moblie:</h2>
+<h3>Moblie:</h3>
 <img src="./assets/images/readme/Moblie.png">
 
 
