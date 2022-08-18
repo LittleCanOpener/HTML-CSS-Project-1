@@ -129,8 +129,8 @@ A clone of the project will be created locally on your machine.</li></ul>
 <h1>Testing</h1>
 <h3>Code Validators</h3>
 <ul>
-<li>W3C <a href="https://validator.w3.org/nu/#textarea" target="_blank">HTML</a> Validator Results - <strong>PASSED</strong></li>
-<li>W3C <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">CSS</a> Validator Results - <strong>PASSED</strong></li>
+<li>W3C <a href="https://validator.w3.org/nu/#textarea" target="_blank">HTML</a> Validator Results:<table><tr><h3>Home - <strong>PASSED</strong></h3><img src="./assets/images/readme/Home-Valid.png" width="550px" height="300px"></tr><tr><h3>Join us - <strong>PASSED</strong></h3><img src="./assets/images/readme/Join-Valid.png" width="550px" height="300px"></tr><tr><h3>Gallery - <strong>PASSED</strong></h3><img src="./assets/images/readme/Gallery-Valid.png" width="550px" height="300px"></tr><tr><h3>Contact us - <strong>PASSED</strong></h3><img src="./assets/images/readme/Contact-Valid.png" width="550px" height="300px"></tr></table></li>
+<li>W3C <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">CSS</a> Validator Results - <strong>PASSED</strong><img src="./assets/images/readme/CSS.Valid.png"></li>
 <li>All links to external websites must open in a new browser</li>
 </ul>
 <h2>Lighthouse:</h2>
@@ -141,8 +141,6 @@ A clone of the project will be created locally on your machine.</li></ul>
 <h1>Special Thanks & Acknowledgements</h1>
 <table><tr>
 <th>Mentor<h3>Ronan McClelland</h3></th>
-</tr><tr>
-<th>Student Care & Support<h3>Alexander Farrell<h3></th>
 </tr><tr>
 <th>Community Executive<h3>Lane Sawyer<h3></th>
 </tr></table>
