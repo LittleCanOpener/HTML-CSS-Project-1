@@ -145,7 +145,7 @@ A clone of the project will be created locally on your machine.</li></ul>
 </tr><tr>
 <th>Community Executive<h3>Lane Sawyer<h3></th>
 </tr></table>
-<h2>For Information</h2>
+<h3>For Information</h3>
 <ul>
 <li><a href="https://www.mbl.is/sport/frettir/2014/11/10/gjorbreytt_adstada_fyrir_judo_a_blonduosi/" target="_blank">MBL</a></li>
 <li><a href="http://hedinsfjordur.is/nordurlandsmot-i-judo-a-blonduosi/" target="_blank">Héðinsfjörður</a></li>
@@ -154,7 +154,7 @@ A clone of the project will be created locally on your machine.</li></ul>
 <li><a href="http://www.tindastoll.is/judo/moya/news/aefingabuidir-i-judo-a-blonduosi" target="_blank">Tindastóll</a></li>
 </ul>
 <hr>
-<h2>CSS Styling & HTML Code</h2>
+<h3>CSS Styling & HTML Code</h3>
 <ul>
 <li><a href="https://www.w3schools.com/" target="_blank">W3schools</a></li>
 <li><a href="https://www.freecodecamp.org/" target="_blank">Free Code Camp</a></li>
