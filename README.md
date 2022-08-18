@@ -155,7 +155,6 @@ A clone of the project will be created locally on your machine.</li></ul>
 <li><a href="http://www.tindastoll.is/judo/moya/news/aefingabuidir-i-judo-a-blonduosi" target="_blank">Tindastóll</a></li>
 </ul>
 <h3>CSS Styling & HTML Code</h3>
-[W3schools](https://www.w3schools.com/){:target="_blank"}
 <ul>
 <li><a href="https://www.w3schools.com/" target="_blank">W3schools</a></li>
 <li><a href="https://www.freecodecamp.org/" target="_blank">Free Code Camp</a></li>
