@@ -6,9 +6,9 @@
 <h1>Design</h1>
 <h3>Colour Scheme:</h3></li>
 <ul>
-<li>White text used to make it easier for the letters to popout</li>
-<li>#870511 used to symbolize the color of the logo</li>
-<li>#222222 used to symbolize the color of the logo and to have an opposite color against the text to make them both stand out for the visually</li>
+<li>White (#ffffff) text used to make it easier for the letters to popout</li>
+<li>Dark red (#870511) used to symbolize the color of the logo</li>
+<li>Very dark gray (#222222) used to symbolize the color of the logo and to have an opposite color against the text to make them both stand out for the visually</li>
 </ul>
 <h1>Structure</h1>
 All pages contain a navigation menu at the top of the website pages that directs them to the following pages "Home, Join us, Gallery, Contact us" to easily allow users to navigate the site as well as a logo.<br>
@@ -21,8 +21,8 @@ As well as a fixed footer for convenience to gain popularity and more members.
 <li>Scroll Down to the Git Hub Pages Heading.</li>
 <li>Select 'Master Branch' as the source.</li>
 <li>Click the Save button.</li>
-<li>Click on the link to go to the live deployed page.</li>
-<hr>
+<li>Click on the link to go to the live deployed page.</li><hr>
+
 <h2>Run Locally</h2>
 <li>Navigate to the GitHub <a href="https://github.com/LittleCanOpener/Milestone-Project-1" target="_blank">Repository</a>:</li>
 <li>Click the Code drop down menu.</li>
@@ -30,19 +30,21 @@ As well as a fixed footer for convenience to gain popularity and more members.
 <li>Open your developement editor of choice and open a terminal window in a directory of your choice.</li>
 <li>Use the 'git clone' command in terminal followed by the copied git URL.
 A clone of the project will be created locally on your machine.</li></ul>
+
 <h1>Features</h1>
 <h2>Header :</h2>
 <img src="./assets/images/readme/Header.png" with="100%" height="50">
 <ul>
 <li>Contains a navigation bar with four pages that will react to mouse movement.</li>
 <li>Active pages will remain bigger and heavier to let users know where they are.</li>
-<li>Company Logo.</li>
-</ul>
+<li>Company Logo.</li></ul><hr>
+
 <h2>Footer :</h2>
-<img src="./assets/images/readme/Footer.png" with="100%" height="10px">
+<img src="./assets/images/readme/Footer.png" with="100%" height="10px"><ul>
 <li>Contains icon that links to social media.</li>
 <li>Footer fixed inplace to make it more convenient for the sport it self visually and the club to gain popularity</li>
 </ul><hr>
+
 <h2>Home :</h2>
 <img src="./assets/images/readme/Home.png">
 <ul>
@@ -107,6 +109,13 @@ A clone of the project will be created locally on your machine.</li></ul>
 <h3>Google Maps:</h3>
 <a href="https://www.google.com/maps/" target="_blank">Google Maps</a>
 <p>Google Maps used to pinpoint the location of the club for further information</p><hr>
+<img src="./assets/images/icons/lighthouse-google.webp" width="55px" height="40px" role="img" viewBox="0 0 24 24">
+<h3>Lighthouse:</h3>
+<a href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk/related?hl=en" target="_blank">Lighthouse Extension</a>
+<p>Was used to analyze the following aspects of a URL: Performance, Progressive Web App, Accessibility, Best Practices and SEO.</p>
+<h4>How to access Lighthouse without Extension:</h4>
+<ol><li>On any website if you are on windows you can press F12 on your keyboard and it will open the developer tool. From there you can access Lighthouse</li>
+<li>You can also right click on pages and click "Inspect" and you'll have the same pathway to Lighthouse through developer tools.</li></ol><hr>
 
 <img src="./assets/images/icons/HTML.svg" width="50px" height="50px">
 <h3>HTML:</h3>
@@ -153,7 +162,7 @@ A clone of the project will be created locally on your machine.</li></ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li" target="_blank">MDN Web Docs</a></li>
 <li><a href="https://github.com/AakashRao-dev/CSS-Cheatsheets" target="_blank">AakashRao-dev</a></li>
 </ul>
-<p>Inspired by the Love Running Project from <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>
+<h4>Inspired by the Love Running Project from: <a href="https://codeinstitute.net/" target="_blank">Code Institute</h4></a>
 <ul><li><a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/" target="_blank">Code Institute: Love Running Project</a></li></ul>
 <h3>Images:</h3>
 <ul>
@@ -162,5 +171,5 @@ A clone of the project will be created locally on your machine.</li></ul>
 <li><a href="https://commons.wikimedia.org/wiki/Category:Kan%C5%8D_Jigor%C5%8D" target="_blank">Wikimedia</a></li>
 </ul>
 <hr>
-<h1>Comments</h1>
+<h2>Comments</h2>
 Git commits will show another page as I started on but I toke ecommerce route and was adviced to let that wait as I don't necessary have the skill set to achieve what I had in mind this advice was given by my Mentor whom I do not regret heeding his advice.
