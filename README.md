@@ -4,7 +4,16 @@
 <li>#</li>
 <li>#</li>
 <h1>Design</h1>
-<h3>Colour Scheme:</h3></li>
+<h2>Wireframes</h2>
+<h3>Home</h3>
+<img src="./assets/images/readme/wire-home.png">
+<h3>Join us</h3>
+<img src="./assets/images/readme/wire-join.png">
+<h3>Gallery</h3>
+<img src="./assets/images/readme/wire-gallery.png">
+<h3>Contact us</h3>
+<img src="./assets/images/readme/wire-contact.png">
+<h2>Colour Scheme</h2></li>
 <ul>
 <li>White (#ffffff) text used to make it easier for the letters to popout</li>
 <li>Dark red (#870511) used to symbolize the color of the logo</li>
