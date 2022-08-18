@@ -20,8 +20,24 @@
 </ul>
 <h1>Structure</h1>
 All pages contain a navigation menu at the top of the website pages that directs them to the following pages "Home, Join us, Gallery, Contact us" to easily allow users to navigate the site as well as a logo.<br>
-As well as a fixed footer for convenience to gain popularity and more members.<br>
-
+As well as a fixed footer for convenience to gain popularity and more members.
+<h1>Deployment</h1>
+<ul>
+<h2>Using Github Pages</h2>
+<li>Navigate to the GitHub <a href="https://github.com/LittleCanOpener/Milestone-Project-1" target="_blank">Repository</a>:</li>
+<li>Click the 'Settings' Tab.</li>
+<li>Scroll Down to the Git Hub Pages Heading.</li>
+<li>Select 'Master Branch' as the source.</li>
+<li>Click the Save button.</li>
+<li>Click on the link to go to the live deployed page.</li>
+<hr>
+<h2>Run Locally</h2>
+<li>Navigate to the GitHub <a href="https://github.com/LittleCanOpener/Milestone-Project-1" target="_blank">Repository</a>:</li>
+<li>Click the Code drop down menu.</li>
+<li>Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.</li>
+<li>Open your developement editor of choice and open a terminal window in a directory of your choice.</li>
+<li>Use the 'git clone' command in terminal followed by the copied git URL.
+A clone of the project will be created locally on your machine.</li></ul>
 <h1>Features</h1>
 <h2>Header :</h2>
 <img src="./assets/images/readme/Header.png" with="100%" height="50">
@@ -67,16 +83,12 @@ As well as a fixed footer for convenience to gain popularity and more members.<b
 <ol>
 <li>Images don't have "Alts"</li>
 <li>Google maps not staying in place for mobile devices</li>
-<li></li>
-<li></li>
 </ol>
 
 <h1>Solved Bugs</h1>
 <ol>
 <li>Fixed</li>
 <li>Fixed</li>
-<li></li>
-<li></li>
 </ol>
 
 <h1>Technologies</h1>
@@ -112,8 +124,27 @@ As well as a fixed footer for convenience to gain popularity and more members.<b
 <img src="./assets/images/icons/CSS.svg" width="50px" height="50px">
 <h3>CSS:</h3>
 <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS</a>
-<p>Was used to style the page after the core was made.</p><hr>
-
+<p>Was used to style the page after the core was made.</p>
+<h1>Testing</h1>
+<h3>Code Validators</h3>
+<ul>
+<li>W3C <a href="https://validator.w3.org/nu/#textarea" target="_blank">HTML</a> Validator Results - <strong>PASSED</strong></li>
+<li>W3C <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">CSS</a> Validator Results - <strong>PASSED</strong></li>
+<li>All links to external websites must open in a new browser</li>
+</ul>
+<h2>Lighthouse:</h2>
+<h3>Desktop:</h3>
+<img src="./assets/images/readme/Desktop.png">
+<h3>Moblie:</h3>
+<img src="./assets/images/readme/Moblie.png">
+<h1>Special Thanks & Acknowledgements</h1>
+<table><tr>
+<th>Mentor<h3>Ronan McClelland</h3></th>
+</tr><tr>
+<th>Student Care & Support<h3>Alexander Farrell<h3></th>
+</tr><tr>
+<th>Community Executive<h3>Lane Sawyer<h3></th>
+</tr></table>
 <h2>For Information</h2>
 <ul>
 <li><a href="https://www.mbl.is/sport/frettir/2014/11/10/gjorbreytt_adstada_fyrir_judo_a_blonduosi/" target="_blank">MBL</a></li>
@@ -131,16 +162,6 @@ As well as a fixed footer for convenience to gain popularity and more members.<b
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li" target="_blank">MDN Web Docs</a></li>
 <li><a href="https://github.com/AakashRao-dev/CSS-Cheatsheets" target="_blank">AakashRao-dev</a></li>
 </ul>
-
-<h1>Testing</h1>
-<h3>Code Validators</h3>
-<ul>
-<li>W3C <a href="https://validator.w3.org/nu/#textarea" target="_blank">HTML</a> Validator Results - <strong>PASSED</strong></li>
-<li>W3C <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">CSS</a> Validator Results - <strong>PASSED</strong></li>
-<li>All links to external websites must open in a new browser</li>
-</ul>
-<h2>Lighthouse:</h2>
-<h3>Desktop:</h3>
-<img src="./assets/images/readme/Desktop.png">
-<h3>Moblie:</h3>
-<img src="./assets/images/readme/Moblie.png">
+<hr>
+<h1>Comments</h1>
+Git commits will show another page as I started on but I toke ecommerce route and was adviced to let that wait as I don't necessary have the skill set to achieve what I had in mind this advice was given by my Mentor whom I do not regret heeding his advice.
