@@ -1,10 +1,8 @@
 <h1>Pardus - Milestone Project 1.</h1>
 <img src="./assets/images/readme/responsive.png">
 <h1>User Experience</h1>
-<li>Assist the local Judo club <strong>Pardus</strong> to grow in popularity
-<li>Inspire more to join
-<li>
-
+<li>#</li>
+<li>#</li>
 <h1>Design</h1>
 <p>Inspired by the Love Running Project from <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>
 <ul><li><a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/" target="_blank">Code Institute: Love Running Project</a></li></ul>
@@ -20,6 +18,10 @@
 <li>#870511 used to symbolize the color of the logo</li>
 <li>#222222 used to symbolize the color of the logo and to have an opposite color against the text to make them both stand out for the visually</li>
 </ul>
+<h1>Structure</h1>
+All pages contain a navigation menu at the top of the website pages that directs them to the following pages "Home, Join us, Gallery, Contact us" to easily allow users to navigate the site as well as a logo.<br>
+As well as a fixed footer for convenience to gain popularity and more members.<br>
+
 <h1>Features</h1>
 <h2>Header :</h2>
 <img src="./assets/images/readme/Header.png" with="100%" height="50">
