@@ -4,14 +4,6 @@
 <li>#</li>
 <li>#</li>
 <h1>Design</h1>
-<p>Inspired by the Love Running Project from <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>
-<ul><li><a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/" target="_blank">Code Institute: Love Running Project</a></li></ul>
-<h3>Images:</h3>
-<ul>
-<li><a href="https://www.facebook.com/judofelagidpardus/" target="_blank">Pardus
-</a>Facebook page
-<li><a href="https://commons.wikimedia.org/wiki/Category:Kan%C5%8D_Jigor%C5%8D" target="_blank">Wikimedia</a></li>
-</ul>
 <h3>Colour Scheme:</h3></li>
 <ul>
 <li>White text used to make it easier for the letters to popout</li>
@@ -119,12 +111,12 @@ A clone of the project will be created locally on your machine.</li></ul>
 <img src="./assets/images/icons/HTML.svg" width="50px" height="50px">
 <h3>HTML:</h3>
 <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a>
-<p>Was used to construct the core of the page.</p><hr>
+<p>Was used to construct the core of the website.</p><hr>
 
 <img src="./assets/images/icons/CSS.svg" width="50px" height="50px">
 <h3>CSS:</h3>
 <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS</a>
-<p>Was used to style the page after the core was made.</p>
+<p>Was used to style the website after the core was made.</p>
 <h1>Testing</h1>
 <h3>Code Validators</h3>
 <ul>
@@ -153,7 +145,6 @@ A clone of the project will be created locally on your machine.</li></ul>
 <li><a href="https://www.huni.is/index.php?pid=32&cid=13659" target="_blank">Húni</a></li>
 <li><a href="http://www.tindastoll.is/judo/moya/news/aefingabuidir-i-judo-a-blonduosi" target="_blank">Tindastóll</a></li>
 </ul>
-<hr>
 <h3>CSS Styling & HTML Code</h3>
 <ul>
 <li><a href="https://www.w3schools.com/" target="_blank">W3schools</a></li>
@@ -161,6 +152,14 @@ A clone of the project will be created locally on your machine.</li></ul>
 <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS-Tricks</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li" target="_blank">MDN Web Docs</a></li>
 <li><a href="https://github.com/AakashRao-dev/CSS-Cheatsheets" target="_blank">AakashRao-dev</a></li>
+</ul>
+<p>Inspired by the Love Running Project from <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>
+<ul><li><a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/" target="_blank">Code Institute: Love Running Project</a></li></ul>
+<h3>Images:</h3>
+<ul>
+<li><a href="https://www.facebook.com/judofelagidpardus/" target="_blank">Pardus
+</a>Facebook Page
+<li><a href="https://commons.wikimedia.org/wiki/Category:Kan%C5%8D_Jigor%C5%8D" target="_blank">Wikimedia</a></li>
 </ul>
 <hr>
 <h1>Comments</h1>
