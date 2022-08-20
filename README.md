@@ -1,9 +1,18 @@
 <h1>Pardus - Milestone Project 1.</h1>
 <img src="./assets/images/readme/responsive.png">
-<h1>User Experience</h1>
-<li>#</li>
-<li>#</li>
+<h1>User Experience</h1><ul>
+<li><h2>First time users<h2></li>
+First time users should experience an immediate explanation of what the website is about and what it stands for judging by the Logo as well as the home page’s text box and the image below. With a working navigation bar at the top reacting to their mouse hovering over and moving between pages will leave the current page text bigger than the rest indicating where you are.
+First time users should also find the website easy to use and navigate around and being 
+
+<li><h2>Regular users</h2></li>
+Regular users already know what the website stands for and will tend to return to the website being either a member or seeing what the club is currently up to.
+Example - Browsing the website whether that being the gallery or even contacting the club via the contact page.</ul>
 <h1>Design</h1>
+<h2>Purpose</h2>
+The Purpose of this website Is to increase the efficiency of the club and to give back to a sport whom I fell in love with. Judo, I sustained an injury during one of the training sessions and have not been able to get back into it but this way I can give back to the community and the sport and the wonderful  people who organizing the trainings and effort brought to them can be made easier and simpler for everyone.<hr>
+<h2>Translation</h2> 
+The information gathered on the website was gathered from Icelandic news sites as well as speaking to members of the club and then translated from native Icelandic to English.<hr>
 <h2>Wireframes</h2>
 <h3>Home</h3>
 <img src="./assets/images/readme/wire-home.png">
