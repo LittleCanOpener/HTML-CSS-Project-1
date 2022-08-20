@@ -13,6 +13,15 @@ Example - Browsing the website whether that being the gallery or even contacting
 The Purpose of this website Is to increase the efficiency of the club and to give back to a sport whom I fell in love with. Judo, I sustained an injury during one of the training sessions and have not been able to get back into it but this way I can give back to the community and the sport and the wonderful  people who organizing the trainings and effort brought to them can be made easier and simpler for everyone.<hr>
 <h2>Translation</h2> 
 The information gathered on the website was gathered from Icelandic news sites as well as speaking to members of the club and then translated from native Icelandic to English.<hr>
+<h2>Future Implications</h2>
+<ul>
+<li>Full Translaiton back to Icelandic with a button to go back and forth</li>
+<li>Video section with all the moves and how to perform them for students</li>
+<li>Member section with all registered members</li>
+<li>Member profiles with belt tracker and progress as well as how many times the've competed to display</li>
+<li>Teacher Announcement Section/Email alert if there is an event comming up members can respond to that or training can't be held due to sickness.</li>
+</ul>
+<hr>
 <h2>Wireframes</h2>
 <h3>Home</h3>
 <img src="./assets/images/readme/wire-home.png">
@@ -96,14 +105,20 @@ A clone of the project will be created locally on your machine.</li></ul>
 
 <h1>Known Bugs</h1>
 <ol>
-<li>Images don't have "Alts"</li>
-<li>Google maps not staying in place for mobile devices</li>
+<li>Previously images didn't have alternative text included</li>
+<li>Google maps not responsive for mobile devices</li>
+<li>Logo not image not allowing users to click use as an alternative home button</li>
+<li>Contact text sections not required</li>
+<li>Logo out of place for moblies</li>
 </ol>
 
 <h1>Solved Bugs</h1>
 <ol>
 <li>Fixed</li>
 <li>Fixed</li>
+<li>Fixed</li>
+<li>Now Required to fill out before submit</li>
+<li>Logo removed and navigation font size increased</li>
 </ol>
 
 <h1>Technologies</h1>
@@ -158,6 +173,7 @@ A clone of the project will be created locally on your machine.</li></ul>
 <li>All links to external websites must open in a new browser</li>
 </ul>
 <h2>Lighthouse:</h2>
+<h3>And why It's important to run before deployment</h3>
 <p><strong>Performance : </strong>refers to the speed in which web pages are downloaded and displayed on the user's web browser. Website performance optimization, or website optimization is the field of knowledge about increasing web performance</p>
 <p><strong>Accessibility : </strong>means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people can: perceive, understand, navigate, and interact with the website.</p>
 <p><strong>Best Practices : </strong>are related to how to carry out a task or configure something. Strict best practice guidelines may be set by a governing body or may be internal to an organization.</p>
