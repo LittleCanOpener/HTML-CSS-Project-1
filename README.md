@@ -179,7 +179,10 @@ A clone of the project will be created locally on your machine.</li></ul>
 <li><a href="https://www.feykir.is/is/frettir/aefingabudir-i-judo-a-blonduosi" target="_blank">Feykir</a></li>
 <li><a href="https://www.huni.is/index.php?pid=32&cid=13659" target="_blank">Húni</a></li>
 <li><a href="http://www.tindastoll.is/judo/moya/news/aefingabuidir-i-judo-a-blonduosi" target="_blank">Tindastóll</a></li>
+<h4>English Website</h4>
+<ul><li><a href="https://www.wikipedia.org/">Wikipedia</a></li></ul>
 </ul><hr>
+
 
 <h3>CSS Styling & HTML Code</h3>
 <ul>
